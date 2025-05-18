@@ -3,7 +3,7 @@ import java.lang.management.OperatingSystemMXBean;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class SystemInfoDisplay {
+public class Main {
     public static void main(String[] args) {
         OperatingSystemMXBean osBean = ManagementFactory.getOperatingSystemMXBean();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
